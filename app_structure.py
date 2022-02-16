@@ -105,6 +105,6 @@ class Body:
         model_predict_graphic = plot_plotly(model, predict)
         st.plotly_chart(model_predict_graphic)
 
-        st.subheader("Gráficos com dados tecnicos da previção realizada:")
+        st.subheader("Gráficos com dados técnicos da predição realizada:")
         components_model_predict_graphic = plot_components_plotly(model, predict)
         st.plotly_chart(components_model_predict_graphic)
