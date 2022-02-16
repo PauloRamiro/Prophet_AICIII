@@ -21,6 +21,7 @@ class Sidebar:
         selected_period = Sidebar.select_period()
         selected_real_comp = Sidebar.prediction_x_reality()
 
+        sidebar_data_list = [ticker_name_select, selected_period, selected_real_comp]
 
     @staticmethod
     def select_ticker():
