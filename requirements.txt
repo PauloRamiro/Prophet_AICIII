@@ -1,8 +1,13 @@
 streamlit
+Cython
+numpy
 pandas
+matplotlib
+convertdate
+pystan==2.19.1.1
 yfinance
-ephem
-pystan
-fbprophet
+streamlit
 plotly
+ephem
 sklearn
+fbprophet
