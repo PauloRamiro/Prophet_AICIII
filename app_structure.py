@@ -50,10 +50,10 @@ class Sidebar:
         option = ["Comparação", "Predição"]
 
         st.sidebar.header("Comparação ou predição")
-        st.sidebar.write("Aqui você escolhe a opção de testar, ou não, a eficácia do modelo. Onde: ")
+        st.sidebar.write("Aqui você escolhe a opção de Comparação, ou não, a eficácia do modelo. Onde: ")
         st.sidebar.write("º Se sua escolha for sim, será gerado um modelo que usará 95% da base de dados "
                          + "para treino e os outros 5% para teste;")
-        st.sidebar.write("º Se for escolhido não, será utilizado todos os dados disponíveis para treino "
+        st.sidebar.write("º Se for escolhido Predição, será utilizado todos os dados disponíveis para treino "
                          + "e será exibido os dados de predição.")
         selected_option = st.sidebar.selectbox("Escolha um periodo:", option)
         return selected_option
