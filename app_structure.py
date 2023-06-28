@@ -1,4 +1,4 @@
-from fbprophet.plot import plot_plotly, plot_components_plotly
+from prophet.plot import plot_plotly, plot_components_plotly
 from plotly import graph_objs as go
 import streamlit as st
 import data_pre_processing
